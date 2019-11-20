@@ -182,3 +182,28 @@ p{
 .call-to-action p{
 	margin-bottom: 20px;
 }
+
+/*Portifólio*/
+
+.portifolio{
+	width: 100vw;
+	height: 820px;
+	padding: 40px 0;
+	background-color: #000;
+}
+
+.portifolio .subtitulo{
+	color: #FEC63C;
+}
+
+.portifolio .subtitulo:after{
+	background-color: #FEC63C;
+}
+
+.portifolio .grid-16{
+	margin-top: 20px;
+}
+
+.portifolio .call-to-action p{
+	color: #fff;
+}
