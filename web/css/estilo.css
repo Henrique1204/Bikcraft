@@ -95,6 +95,11 @@ img{
 	color: #fff;
 }
 
+a.menu_ativo{
+	border-bottom: 2px solid #fff;
+	color: #fff;
+}
+
 /*Introdução*/
 
 .introducao{
@@ -138,6 +143,32 @@ img{
 	font-style: normal;
 	font-weight: bold;
 	letter-spacing: 0.1em;
+}
+
+/*Introdução interna*/
+
+.introducao_interna{
+	max-width: 100vw;
+	height: 160px;
+	padding: 30px 0;
+	margin-top: 80px;
+	text-align: center;
+	color: #fff;
+}
+
+.introducao_interna h1{
+	font-size: 36px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.introducao_interna h1:after{
+	content:"";
+	width: 60px;
+	height: 3px;
+	margin: 7px auto;
+	background-color: #fff;
+	display: block;
 }
 
 /*Produtos*/
