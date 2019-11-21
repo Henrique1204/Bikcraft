@@ -6,9 +6,9 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/grid.css">
 	<link rel="stylesheet" href="css/estilo.css">
-	<link rel="stylesheet" href="css/portifolio.css">
+	<link rel="stylesheet" href="css/contato.css">
 	<script src="js/script.js" defer></script>
-	<title>Bikcraft - Portifólio</title>
+	<title>Bikcraft - Contato</title>
 </head>
 <body>
 	<header class="header">
@@ -18,33 +18,44 @@
 				<ul>
 					<li><a href="sobre.html">Sobre</a></li>
 					<li><a href="produtos.html">Produtos</a></li>
-					<li><a href="portifolio.html" class="menu_ativo">Portifólio</a></li>
-					<li><a href="contato.html">Contato</a></li>
+					<li><a href="portifolio.html">Portifólio</a></li>
+					<li><a href="contato.html" class="menu_ativo">Contato</a></li>
 				</ul>
 			</nav>
 		</div>
 	</header>
-	<section class="introducao_interna interna_portifolio">
+	<section class="introducao_interna interna_produtos">
 		<div class="container">
-			<h1>Portifólio</h1>
-			<p>conheça os projetos que amamos comprar</p>
+			<h1>Contato</h1>
+			<p>tire suas dúvidas com a gente</p>
 		</div>
 	</section><!--Fecha introdução interna-->
-	<section class="container">
-		<blockquote class="quote_cliente">
-			<p>	"No mundo atual a continua expansão de nossa atividade cumpre um papel essencial  na formação da gestão inovadora da qual fazemos parte"</p>
-			<cite>Barbara Moss</cite>
-		</blockquote>
-	</section>
-	<section class="portifolio">
-		<div class="container">
-			<h2 class="subtitulo">Portifólio</h2>
+	<section class="container contato">
+		<form id="form_contato" class="grid-8 form">
+			<label for="nome">Nome:</label>
+			<input type="text" name="nome" id="nome">
+			<label for="email">E-mail:</label>
+			<input type="text" name="email" id="email">
+			<label for="telefone">Telefone:</label>
+			<input type="text" name="telefone" id="telefone">
+			<label for="espec">Especificações</label>
+			<textarea name="espec" id="espec"></textarea>
+			<button type="submit" class="btn preto">Envia</button>
+		</form>
+		<div class="contato_dados grid-8">
+			<h3>Dados</h3>
+			<p>+55 21 93232 3232</p>
+			<p>orçamento@bikcraft.com</p>
+			<p>Rua Ali Perto - Botafogo</p>
+			<p>Rio deJaneiro, RJ - Brasil</p>
+			<h3>Redes Sociais</h3>
 			<ul>
-				<li><img src="img/portifolio/retro.jpg" alt="Bicicleta retrô" class="grid-8"></li>
-				<li><img src="img/portifolio/passeio.jpg" alt="Bicicleta passeio" class="grid-8"></li>
-				<li><img src="img/portifolio/esporte.jpg" alt="Bicicleta esporte" class="grid-16"></li>
+				<li onmouseover="mudarIcone(7)" onmouseout="mudarIcone(10)"><a href="http://facebook.com" target="_blank"><img src="img/sociais/facebook.svg" alt="Icone Facebook"></a></li>
+				<li onmouseover="mudarIcone(8)" onmouseout="mudarIcone(11)"><a href="http://instagram.com" target="_blank"><img src="img/sociais/instagram.svg" alt="Icone Instagram"></a></li>
+				<li onmouseover="mudarIcone(9)" onmouseout="mudarIcone(12)"><a href="http:/twitter.com" target="_blank"><img src="img/sociais/twitter.svg" alt="Icone Twitter"></a></li>
 			</ul>
 		</div>
+		<a href="http://google.com" target="_blank" class="contato grid-16"><img src="img/endereço-bikcraft.jpg" alt="endereço-bikcraft"></a>
 	</section>
 	<section class="quebra">
 		<blockquote class="quote-externo container">
@@ -74,7 +85,6 @@
 						<li onmouseover="mudarIcone(1)" onmouseout="mudarIcone(4)"><a href="http://facebook.com" target="_blank"><img src="img/sociais/facebook.svg" alt="Icone Facebook"></a></li>
 						<li onmouseover="mudarIcone(2)" onmouseout="mudarIcone(5)"><a href="http://instagram.com" target="_blank"><img src="img/sociais/instagram.svg" alt="Icone Instagram"></a></li>
 						<li onmouseover="mudarIcone(3)" onmouseout="mudarIcone(6)"><a href="http:/twitter.com" target="_blank"><img src="img/sociais/twitter.svg" alt="Icone Twitter"></a></li>
-					</ul>
 				</div>
 			</div>
 		</div>
