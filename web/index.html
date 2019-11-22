@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="css/estilo.css">
 	<link rel="stylesheet" href="css/responsivo.css">
 	<script>document.documentElement.classList.add('js')</script>
+	<script src="js/simple-anime.js" defer></script>
 	<script src="js/script.js" defer></script>
 	<title>Bikcraft</title>
 </head>
@@ -27,15 +28,15 @@
 	</header>
 	<section class="introducao">
 		<div class="container">
-			<h1>Bicicletas feitas a mão</h1>
-			<blockquote class="quote-externo">
+			<h1 data-anime="400" class="descendo">Bicicletas feitas a mão</h1>
+			<blockquote class="quote-externo descendo" data-anime="800">
 				<p>"Não tenha nada em sua casa que você não considere útil ou acredita ser bonito"</p>
 				<cite>WILLIAM MORRIS</cite>
 			</blockquote>
-			<a href="produtos.html" class="btn branco">Orçamento</a>
+			<a href="produtos.html" class="btn branco" data-anime="1200">Orçamento</a>
 		</div>
 	</section><!--Fecha introdução-->
-	<section class="produtos container">
+	<section class="produtos container descendo" data-anime="1600">
 		<h2 class="subtitulo">Produtos</h2>
 		<ul class="lista_produtos">
 			<li class="grid-1-3">

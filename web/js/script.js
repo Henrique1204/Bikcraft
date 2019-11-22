@@ -60,8 +60,12 @@ if(window.SimpleSlide){
 
 	new SimpleSlide({
 		slide: 'produtos',
-		tine: 3000,
 		nav: true,
-		auto: false
+		auto: false,
+		time: 3000
 	});
+};
+
+if(window.SimpleAnime){
+	new SimpleAnime({});
 };

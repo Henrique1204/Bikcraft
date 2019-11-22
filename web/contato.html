@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="css/contato.css">
 	<link rel="stylesheet" href="css/responsivo.css">
 	<script>document.documentElement.classList.add('js')</script>
+	<script src="js/simple-anime.js" defer></script>
 	<script src="js/script.js" defer></script>
 	<title>Bikcraft - Contato</title>
 </head>
@@ -28,11 +29,11 @@
 	</header>
 	<section class="introducao_interna interna_produtos">
 		<div class="container">
-			<h1>Contato</h1>
-			<p>tire suas dúvidas com a gente</p>
+			<h1 data-anime="400" class="descendo">Contato</h1>
+			<p data-anime="800" class="descendo">tire suas dúvidas com a gente</p>
 		</div>
 	</section><!--Fecha introdução interna-->
-	<section class="container contato">
+	<section class="container contato descendo" data-anime="1200">
 		<form id="form_contato" class="grid-8 form">
 			<label for="nome">Nome:</label>
 			<input type="text" name="nome" id="nome">

@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="css/portifolio.css">
 	<link rel="stylesheet" href="css/responsivo.css">
 	<script>document.documentElement.classList.add('js')</script>
+	<script src="js/simple-anime.js" defer></script>
 	<script src="js/simple-slide.js" defer></script>
 	<script src="js/script.js" defer></script>
 	<title>Bikcraft - Portifólio</title>
@@ -29,11 +30,11 @@
 	</header>
 	<section class="introducao_interna interna_portifolio">
 		<div class="container">
-			<h1>Portifólio</h1>
-			<p>conheça os projetos que amamos comprar</p>
+			<h1 data-anime="400" class="descendo">Portifólio</h1>
+			<p data-anime="800" class="descendo">conheça os projetos que amamos comprar</p>
 		</div>
 	</section><!--Fecha introdução interna-->
-	<section class="container" data-slide="quote">
+	<section class="container descendo" data-slide="quote" data-anime="1200">
 		<blockquote class="quote_cliente">
 			<p>	"No mundo atual a continua expansão de nossa atividade cumpre um papel essencial  na formação da gestão inovadora da qual fazemos parte."</p>
 			<cite>Barbara Moss</cite>
@@ -47,7 +48,7 @@
 			<cite>Henrique Paulo</cite>
 		</blockquote>
 	</section>
-	<section class="portifolio">
+	<section class="portifolio descendo" data-anime="1600">
 		<div class="container" data-slide="produtos">
 			<ul>
 				<li><img src="img/portifolio/retro.jpg" alt="Bicicleta retrô" class="grid-8"></li>
