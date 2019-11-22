@@ -238,6 +238,7 @@ a.menu_ativo{
 
 .portifolio .grid-16{
 	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .portifolio .call-to-action p{
@@ -348,4 +349,48 @@ a.menu_ativo{
 	max-width: 100vw;
 	padding: 10px 0;
 	background-color: #FEC63C;
+}
+
+/*JavaScript*/
+
+.js [data-slide]{
+	position: relative;
+}
+
+.js [data-slide]>*{
+	position: absolute;
+	top: 0px;
+	opacity: 0;
+}
+
+.js [data-slide]>.active{
+	position: relative;
+	opacity: 1;
+	transition: opacity 500ms;
+}
+
+.js [data-slide-nav] {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.js [data-slide-nav] > button {
+  display: inline-block;
+  width: 12px;
+  margin: 4px;
+  height: 12px;
+  border: none;
+  padding: 0px;
+  border-radius: 6px;
+  background: #1d1d1d;
+  text-indent: -100px;
+  overflow: hidden;
+  outline: none;
+  cursor: pointer;
+}
+
+.js [data-slide-nav] > button.active {
+  background: #fec454;
 }

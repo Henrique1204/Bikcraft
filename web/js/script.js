@@ -50,3 +50,18 @@ function mudarIcone(item){
 			break;
 	};
 };
+
+if(window.SimpleSlide){
+	
+	new SimpleSlide({
+		slide: 'quote',
+		time: 5000
+	});
+
+	new SimpleSlide({
+		slide: 'produtos',
+		tine: 3000,
+		nav: true,
+		auto: false
+	});
+};
