@@ -224,7 +224,6 @@ a.menu_ativo{
 /*Portifólio*/
 
 .portifolio{
-	height: 820px;
 	padding: 40px 0;
 	background-color: #000;
 }
@@ -249,6 +248,10 @@ a.menu_ativo{
 
 .qualidade{
 	padding: 60px 0px;
+}
+
+.mobile{
+	display: none;
 }
 
 .qualidade li{
@@ -326,8 +329,6 @@ a.menu_ativo{
 }
 
 .footer_redes li{
-	width: 54px;
-	height: 54px;
 	margin-right: 10px;
 	text-align: center;
 	display: inline-block;

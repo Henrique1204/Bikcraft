@@ -1,10 +1,42 @@
 /*Modelo para tablet*/
 
 @media only screen and (max-width: 979px){
+	
+	/*Introdução*/
+
 	.introducao{
 		background: url("../img/bg-mobile.jpg") no-repeat center;
 		background-size: cover;
 	}
+
+	/*Call-to-action*/
+	
+	.call-to-action{
+		padding-top: 10px;
+	}
+
+	/*Qualidade Home*/
+
+	.qualidade li{
+		text-align: left;
+		padding: 0 10px;
+	}
+
+	.qualidade h3:after{
+		margin: 6px 0 10px;
+	}
+
+	/*Footer*/
+
+	.footer_redes a{
+		padding: 6px;
+	}
+
+	.footer_redes img{
+		width: 26px;
+		height: 26px;
+	}
+
 }
 
 /*Modelo para smartphone*/
@@ -45,6 +77,21 @@
 
 	.introducao{
 		margin-top: 0;
-		padding-top: 20px;
 	}
+
+	.introducao h1{
+		font-size: 36px;
+	}
+
+	/*Qualidade*/
+
+	.desktop{
+		display: none;
+	}
+
+	.mobile{
+		margin-bottom: 20px;
+		display: block;
+	}
+
 }
