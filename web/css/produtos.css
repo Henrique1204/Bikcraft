@@ -53,7 +53,6 @@
 .produto_info ul li{
 	width: 229px;
 	height: 48px;
-	margin-top: 2px;
 	padding-top: 16px;
 	font-size: 18px;
 	font-weight: bold;
@@ -66,6 +65,10 @@
 
 .produto_info ul li:nth-child(odd){
 	margin-right: 2px;
+}
+
+.produto_info ul li:nth-child(3), .produto_info ul li:nth-child(4){
+	margin-top: 2px;
 }
 
 /*Orçamento*/
