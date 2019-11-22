@@ -73,6 +73,10 @@
 		border-color: #fff;
 	}
 
+	a.menu_ativo{
+		border-color: #fff;
+	}
+
 	/*Introdução*/
 
 	.introducao{
@@ -81,6 +85,12 @@
 
 	.introducao h1{
 		font-size: 36px;
+	}
+
+	/*Introdução interna*/
+
+	.introducao_interna{
+		margin-top: 0px;;
 	}
 
 	/*Qualidade*/
@@ -92,6 +102,19 @@
 	.mobile{
 		margin-bottom: 20px;
 		display: block;
+	}
+
+	/*Sobre*/
+
+	.missao_sobre p{
+		padding-right: 0px;
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.missao_sobre li{
+		font-size: 14px;
+		line-height: 25px;
 	}
 
 }

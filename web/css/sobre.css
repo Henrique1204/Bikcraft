@@ -27,10 +27,10 @@
 }
 
 .missao_sobre p{
+	padding-right: 60px;
+	margin-bottom: 1em;
 	font-size: 18px;
 	line-height: 25px;
-	margin-bottom: 1em;
-	padding-right: 60px;
 }
 
 .missao_sobre li{
